@@ -18,7 +18,7 @@ public extension UUID {
         let namespaceData = Data(buffer: namespaceInArray)
         let unifiedData = namespaceData + nameData
 
-        var digestArray = [UInt8](repeating: 0x00, count: Int(CC_MD5_DIGEST_LENGTH))
+        var digestArray = [UInt8](repeating: 0x00, count: Int(max(CC_MD5_DIGEST_LENGTH, CC_SHA1_DIGEST_LENGTH)))
 
         switch uuidVersion {
         case 3:
