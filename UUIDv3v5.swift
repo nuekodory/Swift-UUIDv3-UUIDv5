@@ -41,7 +41,7 @@ public extension UUID {
                 digestArray[9], digestArray[10], digestArray[11], digestArray[12], digestArray[13], digestArray[14], digestArray[15]
         )
         // since MD5  has fixed length of 128 = 8 * 16 bit, access to digestArray[0...15] is guaranteed.
-        // since SHA1 has fixed length of 160 = 8 * 20 bit, access to digestArray[0...20] is guaranteed.
+        // since SHA1 has fixed length of 160 = 8 * 20 bit, access to digestArray[0...19] is guaranteed.
 
         self = UUID(uuid: digestTuple)
     }
