@@ -1,5 +1,6 @@
 # Swift+UUIDv3+UUIDv5
-Tiny Swift code to generate namespace-based UUID using CommonCrypto
+Tiny Swift code to generate namespace-based UUID using CommonCrypto.
+
 Compatible with Swift3/4/5
 
 # Usage
