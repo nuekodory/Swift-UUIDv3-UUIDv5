@@ -1,3 +1,10 @@
+# OBSOLETE CODE
+There are some vulnerabilities. Consider using [baarde/uuid-kit](https://github.com/baarde/uuid-kit) instead.
+
+XCode might suggest:
+- `CC_MD5` is outdated
+- Insufficient use of `UnsafeBufferPointer`
+
 # Swift+UUIDv3+UUIDv5
 Tiny Swift code to generate namespace-based UUID (UUID version3 and 5) using CommonCrypto.
 
